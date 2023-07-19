@@ -7,7 +7,7 @@
 https://gracjanakromska.github.io/ToDoList/
 
 ## Description
-This project is a web application where users can add and manage tasks to your to-do list. Enables effective organization of duties.
+This project is a web application where users can add and manage tasks to their to-do list. Enables effective organization of duties.
 Users can add new tasks and when it's finished, users can mark it as completed or delete tasks that have already been completed.
 
 ## Used in the project:
