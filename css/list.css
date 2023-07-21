@@ -29,6 +29,7 @@
     border: none;
     text-align: center;
     cursor: pointer;
+    transition: 1s;
 }
 
 .tasks__button:hover {
