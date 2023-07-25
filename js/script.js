@@ -39,9 +39,11 @@
         if (tasks.length > 0) {
             buttonsHTMLString += `
             <span class="section__buttons">
-                <button class="section__button js-toggleHideDoneTasksButton">${hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone</button>
+                <button class="section__button js-toggleHideDoneTasksButton">${hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone
+                </button>
                 <button class="section__button js-setAllTasksDoneButton"
-                ${tasks.every(({ done }) => done) ? "disabled" : ""}>Ukończ wszystkie</button>
+                ${tasks.every(({ done }) => done) ? "disabled" : ""}>Ukończ wszystkie
+                </button>
             </span>`
         };
         document.querySelector(".js-buttons").innerHTML = buttonsHTMLString;
