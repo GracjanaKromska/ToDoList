@@ -13,6 +13,10 @@
     grid-gap: 10px;
 }
 
+tasks__item--hidden {
+    display: none;
+}
+
 .tasks__content {
     word-break: break-word;
 }
