@@ -7,7 +7,48 @@
 .section__header {
     padding: 20px;
     margin: 0;
+}
+
+@media(max-width: 767px) {
+    .section__header {
+        justify-self: start;
+    }
+}
+
+.section__container {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
     border-bottom: 1px solid #ddd;
 }
 
+@media(max-width: 767px) {
+    .section__container {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+}
 
+.section__button {
+    color: teal;
+    background-color: white;
+    border: none;
+    transition: 1s;
+}
+
+@media(max-width: 767px) {
+    .section__button {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 20px;
+    }
+}
+
+.section__button:hover {
+    color: rgba(0, 128, 128, 0.83);;
+}
+
+.section__button:disabled {
+    color: rgb(200, 200, 200);
+}
