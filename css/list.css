@@ -13,7 +13,7 @@
     grid-gap: 10px;
 }
 
-tasks__item--hidden {
+.tasks__item--hidden {
     display: none;
 }
 
