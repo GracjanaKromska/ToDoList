@@ -88,8 +88,6 @@
         }
 
         document.querySelector(".js-tasks").innerHTML = tasksHTMLString;
-
-        bindTasksEvenets();
     };
 
     const renderButtons = () => {
@@ -106,8 +104,6 @@
             </span>`
         };
         document.querySelector(".js-buttons").innerHTML = buttonsHTMLString;
-
-        bindButtonsEvents();
     };
 
     const bindButtonsEvents = () => {
